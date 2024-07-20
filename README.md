@@ -1,8 +1,9 @@
-# gRPC Image Rotation Service
+# gRPC Image Rotation Filter Service
 
 
 ## Overview
-This README addresses all deliverables associated with the Neuralink take-home assignment. It outlines the necessary steps to set up, build, and run the image rotation service.
+
+This codebase is designed to create a gRPC server that implements an image rotation and mean filter interface as defined in a provided protobuf definition file. The server is robust enough for potential production use. Additionally, a client is included to test the server's functionality. Both the client and server will handle valid PNG and JPEG images, with the client supplying specific arguments for image manipulation.
 
 ### Table of Content
 - [gRPC Image Rotation Service](#grpc-image-rotation-service)
